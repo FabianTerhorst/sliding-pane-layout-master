@@ -1,0 +1,23 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
+    defaultConfig {
+        applicationId "github.fabianterhorst.drawer_sliding_pane_layout"
+        minSdkVersion 14
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0.0"
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:22.0.0'
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile('com.mikepenz.materialdrawer:library:2.7.6@aar') {
+        transitive = true
+    }
+}

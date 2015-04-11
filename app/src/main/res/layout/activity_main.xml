@@ -1,0 +1,26 @@
+<github.fabianterhorst.drawer_sliding_pane_layout.DrawerFadeSlidingPaneLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sliding_pane_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/cross_fade_pane_views"
+        android:layout_width="@dimen/side_pane_width"
+        android:layout_height="match_parent"
+        android:background="@color/md_white_1000" />
+
+    <LinearLayout
+        android:id="@+id/right_layout"
+        android:layout_width="@dimen/main_pane_width"
+        android:layout_marginLeft="@dimen/partial_pane_width"
+        android:layout_marginStart="@dimen/partial_pane_width"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/pane_2" />
+    </LinearLayout>
+
+</github.fabianterhorst.drawer_sliding_pane_layout.DrawerFadeSlidingPaneLayout>
