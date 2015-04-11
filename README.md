@@ -1,6 +1,6 @@
-SlidingPaneLayout
------------------
+Sample for sliding pane layout and navigation drawer
 
-SlidingPaneLayout that is partially visible, with cross fade.
+know issues:
 
-Blog post: http://blog.sqisland.com/2015/01/partial-slidingpanelayout.html
+-  2 drawer should be 1
+- shader on left layout
